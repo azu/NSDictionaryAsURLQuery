@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C1112CE685A241B0255B /* NSDictionaryAsURLQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C6BB3B80D5F6C0DE7DC7 /* NSDictionaryAsURLQueryTests.m */; };
+		17B5C1A0CE81A26DCE3F5212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C8FB3551281F74B08E40 /* Foundation.framework */; };
+		17B5C1C056AF296D2857A257 /* NSDictionaryAsURLQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C8260362349CFD2D2F09 /* NSDictionaryAsURLQuery.m */; };
+		17B5C1F1D99384EE2FAC806E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CCFA8B93184E681C66B7 /* XCTest.framework */; };
+		17B5C3C22C22C46B1F475DC7 /* NSDictionaryAsURLQuery.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17B5C05F6C9635C3C3D8668B /* NSDictionaryAsURLQuery.h */; };
+		17B5C65E54717A9763DE82A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C33B628916A76F6A6D6F /* InfoPlist.strings */; };
+		17B5C6A6BE99D26E993A2892 /* libNSDictionaryAsURLQuery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C9378406E105C1D6932C /* libNSDictionaryAsURLQuery.a */; };
+		17B5C796B9C3303AB522FE2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C8FB3551281F74B08E40 /* Foundation.framework */; };
+		17B5CCF34EDA2152E68058C8 /* URLQueryBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C7188AD04D5C0C0F5BBF /* URLQueryBuilder.m */; };
+		17B5CE4289E54F4C10631072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C3BD5A363AF01B1E0A94 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C50A922C7375A87A4FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5CBF99BF66A70FB3BD1B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C41A2D88FF114C573F32;
+			remoteInfo = NSDictionaryAsURLQuery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17B5CB1D28BC3A5AEF5F19B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				17B5C3C22C22C46B1F475DC7 /* NSDictionaryAsURLQuery.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17B5C05F6C9635C3C3D8668B /* NSDictionaryAsURLQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDictionaryAsURLQuery.h; sourceTree = "<group>"; };
+		17B5C0E63241C1CD7491BF6E /* NSDictionaryAsURLQuery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionaryAsURLQuery-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C3BD5A363AF01B1E0A94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5C663B014A1C5683CF45F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C6B6742CA44A146FA059 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5C6BB3B80D5F6C0DE7DC7 /* NSDictionaryAsURLQueryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryAsURLQueryTests.m; sourceTree = "<group>"; };
+		17B5C7188AD04D5C0C0F5BBF /* URLQueryBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLQueryBuilder.m; sourceTree = "<group>"; };
+		17B5C8260362349CFD2D2F09 /* NSDictionaryAsURLQuery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryAsURLQuery.m; sourceTree = "<group>"; };
+		17B5C8FB3551281F74B08E40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5C9378406E105C1D6932C /* libNSDictionaryAsURLQuery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSDictionaryAsURLQuery.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C98C69B4ABE599602BAB /* NSDictionaryAsURLQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDictionaryAsURLQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CA339C66F9B9C6BDB339 /* URLQueryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLQueryBuilder.h; sourceTree = "<group>"; };
+		17B5CB2BC157739FFB464EF1 /* NSDictionaryAsURLQueryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "NSDictionaryAsURLQueryTests-Info.plist"; sourceTree = "<group>"; };
+		17B5CCFA8B93184E681C66B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C132D3F4FACA562D957D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C1A0CE81A26DCE3F5212 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CB9E5B8A17BA61FBCD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C1F1D99384EE2FAC806E /* XCTest.framework in Frameworks */,
+				17B5C796B9C3303AB522FE2B /* Foundation.framework in Frameworks */,
+				17B5CE4289E54F4C10631072 /* UIKit.framework in Frameworks */,
+				17B5C6A6BE99D26E993A2892 /* libNSDictionaryAsURLQuery.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C1D9F5CEBA1900618ED7 /* NSDictionaryAsURLQuery */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CE1F4658D8DC6F369D0D /* Supporting Files */,
+				17B5C05F6C9635C3C3D8668B /* NSDictionaryAsURLQuery.h */,
+				17B5C8260362349CFD2D2F09 /* NSDictionaryAsURLQuery.m */,
+			);
+			path = NSDictionaryAsURLQuery;
+			sourceTree = "<group>";
+		};
+		17B5C3837644FAA05633F6BD = {
+			isa = PBXGroup;
+			children = (
+				17B5CDE55A1909D1DD983487 /* Products */,
+				17B5CDC57EF2488027A84C60 /* Frameworks */,
+				17B5C1D9F5CEBA1900618ED7 /* NSDictionaryAsURLQuery */,
+				17B5C78CB84494282C6B32DF /* NSDictionaryAsURLQueryTests */,
+				17B5C7BBD2D7F329B61A50D7 /* lib */,
+				17B5C6B6742CA44A146FA059 /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5C78CB84494282C6B32DF /* NSDictionaryAsURLQueryTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C7AD25E4885D874B957E /* Supporting Files */,
+				17B5C6BB3B80D5F6C0DE7DC7 /* NSDictionaryAsURLQueryTests.m */,
+			);
+			path = NSDictionaryAsURLQueryTests;
+			sourceTree = "<group>";
+		};
+		17B5C7AD25E4885D874B957E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CB2BC157739FFB464EF1 /* NSDictionaryAsURLQueryTests-Info.plist */,
+				17B5C33B628916A76F6A6D6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5C7BBD2D7F329B61A50D7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C7188AD04D5C0C0F5BBF /* URLQueryBuilder.m */,
+				17B5CA339C66F9B9C6BDB339 /* URLQueryBuilder.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		17B5CDC57EF2488027A84C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C8FB3551281F74B08E40 /* Foundation.framework */,
+				17B5CCFA8B93184E681C66B7 /* XCTest.framework */,
+				17B5C3BD5A363AF01B1E0A94 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CDE55A1909D1DD983487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C9378406E105C1D6932C /* libNSDictionaryAsURLQuery.a */,
+				17B5C98C69B4ABE599602BAB /* NSDictionaryAsURLQueryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5CE1F4658D8DC6F369D0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C0E63241C1CD7491BF6E /* NSDictionaryAsURLQuery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C41A2D88FF114C573F32 /* NSDictionaryAsURLQuery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C05405A8B4364504332C /* Build configuration list for PBXNativeTarget "NSDictionaryAsURLQuery" */;
+			buildPhases = (
+				17B5CBD424663778881775BC /* Sources */,
+				17B5C132D3F4FACA562D957D /* Frameworks */,
+				17B5CB1D28BC3A5AEF5F19B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDictionaryAsURLQuery;
+			productName = NSDictionaryAsURLQuery;
+			productReference = 17B5C9378406E105C1D6932C /* libNSDictionaryAsURLQuery.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		17B5CB666FF3151F36CF6421 /* NSDictionaryAsURLQueryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CC39B88FBA288E505CE4 /* Build configuration list for PBXNativeTarget "NSDictionaryAsURLQueryTests" */;
+			buildPhases = (
+				17B5C018625E5EC706B9F8D6 /* Sources */,
+				17B5CB9E5B8A17BA61FBCD9E /* Frameworks */,
+				17B5C3674C7ED168AD62AB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5CE834CF2929319C3E0AB /* PBXTargetDependency */,
+			);
+			name = NSDictionaryAsURLQueryTests;
+			productName = NSDictionaryAsURLQueryTests;
+			productReference = 17B5C98C69B4ABE599602BAB /* NSDictionaryAsURLQueryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5CBF99BF66A70FB3BD1B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5CC4020C205661E52B87F /* Build configuration list for PBXProject "NSDictionaryAsURLQuery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C3837644FAA05633F6BD;
+			productRefGroup = 17B5CDE55A1909D1DD983487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5C41A2D88FF114C573F32 /* NSDictionaryAsURLQuery */,
+				17B5CB666FF3151F36CF6421 /* NSDictionaryAsURLQueryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C3674C7ED168AD62AB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C65E54717A9763DE82A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C018625E5EC706B9F8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C1112CE685A241B0255B /* NSDictionaryAsURLQueryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CBD424663778881775BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C1C056AF296D2857A257 /* NSDictionaryAsURLQuery.m in Sources */,
+				17B5CCF34EDA2152E68058C8 /* URLQueryBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5CE834CF2929319C3E0AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C41A2D88FF114C573F32 /* NSDictionaryAsURLQuery */;
+			targetProxy = 17B5C50A922C7375A87A4FF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C33B628916A76F6A6D6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C663B014A1C5683CF45F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C34B2DD457609D0E6CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C5F35C01658619DC8A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NSDictionaryAsURLQuery.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionaryAsURLQuery/NSDictionaryAsURLQuery-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17B5C679608178838D896AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionaryAsURLQuery/NSDictionaryAsURLQuery-Prefix.pch";
+				INFOPLIST_FILE = "NSDictionaryAsURLQueryTests/NSDictionaryAsURLQueryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17B5CCEB7485933C6E70A2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NSDictionaryAsURLQuery.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionaryAsURLQuery/NSDictionaryAsURLQuery-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17B5CCF4B6A9FB850E301DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDictionaryAsURLQuery/NSDictionaryAsURLQuery-Prefix.pch";
+				INFOPLIST_FILE = "NSDictionaryAsURLQueryTests/NSDictionaryAsURLQueryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		17B5CE218C946DEB250353E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C05405A8B4364504332C /* Build configuration list for PBXNativeTarget "NSDictionaryAsURLQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CCEB7485933C6E70A2D3 /* Release */,
+				17B5C5F35C01658619DC8A18 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B5CC39B88FBA288E505CE4 /* Build configuration list for PBXNativeTarget "NSDictionaryAsURLQueryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CCF4B6A9FB850E301DA3 /* Release */,
+				17B5C679608178838D896AF9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B5CC4020C205661E52B87F /* Build configuration list for PBXProject "NSDictionaryAsURLQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C34B2DD457609D0E6CF5 /* Release */,
+				17B5CE218C946DEB250353E2 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5CBF99BF66A70FB3BD1B0 /* Project object */;
+}
