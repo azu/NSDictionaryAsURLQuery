@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NSDictionaryAsURLQuery"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "URLQueryBuilder convert NSDictionary to URL query string."
   s.homepage     = "https://github.com/azu/NSDictionaryAsURLQuery"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
