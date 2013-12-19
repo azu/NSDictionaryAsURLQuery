@@ -21,13 +21,12 @@ NSString *encodeURIComponent(NSString *string) {
 
 + (NSString *)buildQueryWithDictionary:(NSDictionary *) dictionary {
     NSMutableArray *query = [NSMutableArray array];
-    for (id key in [dictionary allKeys]) {
+    for (NSString *key in [dictionary allKeys]) {
         id value = [dictionary objectForKey:key];
         [query addObject:[NSString stringWithFormat:@"%@=%@",
                                                     encodeURIComponent([key description]),
                                                     encodeURIComponent([value description])]];
     }
-
     return [query componentsJoinedByString:@"&"];
 }
 
