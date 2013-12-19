@@ -4,9 +4,9 @@ URLQueryBuilder convert `NSDictionary` to URL query string.
 
 ## Installation
 
-`` sh
+``` sh
 pod 'NSDictionaryAsURLQuery', :git => 'https://github.com/azu/NSDictionaryAsURLQuery.git'
-``
+```
 
 ## Usage
 
