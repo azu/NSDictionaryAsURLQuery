@@ -1,4 +1,4 @@
-# URLQueryBuilder
+# URLQueryBuilder [![Build Status](https://travis-ci.org/azu/NSDictionaryAsURLQuery.png)](https://travis-ci.org/azu/NSDictionaryAsURLQuery)
 
 URLQueryBuilder convert `NSDictionary` to URL query string.
 
