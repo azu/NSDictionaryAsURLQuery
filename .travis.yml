@@ -1,0 +1,6 @@
+language: objective-c
+before_install:
+    - gem install xctest-runner
+    - gem install xcpretty
+script:
+    - xctest-runner -project NSDictionaryAsURLQuery.xcodeproj -scheme NSDictionaryAsURLQueryTests | xcpretty -c
