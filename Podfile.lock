@@ -1,0 +1,10 @@
+PODS:
+  - AZEncodeURIComponent (0.1.0)
+
+DEPENDENCIES:
+  - AZEncodeURIComponent
+
+SPEC CHECKSUMS:
+  AZEncodeURIComponent: 571a0ee7d055bec60cb12c8f051ff860bce62145
+
+COCOAPODS: 0.33.1
