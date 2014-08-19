@@ -17,6 +17,8 @@
 		17B5C796B9C3303AB522FE2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C8FB3551281F74B08E40 /* Foundation.framework */; };
 		17B5CCF34EDA2152E68058C8 /* URLQueryBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C7188AD04D5C0C0F5BBF /* URLQueryBuilder.m */; };
 		17B5CE4289E54F4C10631072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C3BD5A363AF01B1E0A94 /* UIKit.framework */; };
+		3B045484ABF548DF9A24DB72 /* libPods-NSDictionaryAsURLQueryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E378FF00954F508AF3D91D /* libPods-NSDictionaryAsURLQueryTests.a */; };
+		C53DA1F294974316892B2FAE /* libPods-NSDictionaryAsURLQuery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBD5DF98DA44790B50F4BE7 /* libPods-NSDictionaryAsURLQuery.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08281C5F3C094A2D8D6D4E5A /* Pods-NSDictionaryAsURLQueryTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDictionaryAsURLQueryTests.xcconfig"; path = "Pods/Pods-NSDictionaryAsURLQueryTests.xcconfig"; sourceTree = "<group>"; };
+		0EBD5DF98DA44790B50F4BE7 /* libPods-NSDictionaryAsURLQuery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDictionaryAsURLQuery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B5C05F6C9635C3C3D8668B /* NSDictionaryAsURLQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDictionaryAsURLQuery.h; sourceTree = "<group>"; };
 		17B5C0E63241C1CD7491BF6E /* NSDictionaryAsURLQuery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionaryAsURLQuery-Prefix.pch"; sourceTree = "<group>"; };
 		17B5C3BD5A363AF01B1E0A94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -57,6 +61,8 @@
 		17B5CA339C66F9B9C6BDB339 /* URLQueryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLQueryBuilder.h; sourceTree = "<group>"; };
 		17B5CB2BC157739FFB464EF1 /* NSDictionaryAsURLQueryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "NSDictionaryAsURLQueryTests-Info.plist"; sourceTree = "<group>"; };
 		17B5CCFA8B93184E681C66B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9C58F4D71304461FA43A2ED3 /* Pods-NSDictionaryAsURLQuery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDictionaryAsURLQuery.xcconfig"; path = "Pods/Pods-NSDictionaryAsURLQuery.xcconfig"; sourceTree = "<group>"; };
+		E7E378FF00954F508AF3D91D /* libPods-NSDictionaryAsURLQueryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDictionaryAsURLQueryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B5C1A0CE81A26DCE3F5212 /* Foundation.framework in Frameworks */,
+				C53DA1F294974316892B2FAE /* libPods-NSDictionaryAsURLQuery.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,7 @@
 				17B5C796B9C3303AB522FE2B /* Foundation.framework in Frameworks */,
 				17B5CE4289E54F4C10631072 /* UIKit.framework in Frameworks */,
 				17B5C6A6BE99D26E993A2892 /* libNSDictionaryAsURLQuery.a in Frameworks */,
+				3B045484ABF548DF9A24DB72 /* libPods-NSDictionaryAsURLQueryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +109,8 @@
 				17B5C78CB84494282C6B32DF /* NSDictionaryAsURLQueryTests */,
 				17B5C7BBD2D7F329B61A50D7 /* lib */,
 				17B5C6B6742CA44A146FA059 /* readme.md */,
+				9C58F4D71304461FA43A2ED3 /* Pods-NSDictionaryAsURLQuery.xcconfig */,
+				08281C5F3C094A2D8D6D4E5A /* Pods-NSDictionaryAsURLQueryTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +147,8 @@
 				17B5C8FB3551281F74B08E40 /* Foundation.framework */,
 				17B5CCFA8B93184E681C66B7 /* XCTest.framework */,
 				17B5C3BD5A363AF01B1E0A94 /* UIKit.framework */,
+				0EBD5DF98DA44790B50F4BE7 /* libPods-NSDictionaryAsURLQuery.a */,
+				E7E378FF00954F508AF3D91D /* libPods-NSDictionaryAsURLQueryTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B5C05405A8B4364504332C /* Build configuration list for PBXNativeTarget "NSDictionaryAsURLQuery" */;
 			buildPhases = (
+				4A8E418550744E548BB4283C /* Check Pods Manifest.lock */,
 				17B5CBD424663778881775BC /* Sources */,
 				17B5C132D3F4FACA562D957D /* Frameworks */,
 				17B5CB1D28BC3A5AEF5F19B1 /* CopyFiles */,
+				26835A0DA0F547AA99E916EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17B5CC39B88FBA288E505CE4 /* Build configuration list for PBXNativeTarget "NSDictionaryAsURLQueryTests" */;
 			buildPhases = (
+				5FB664E3C200461EBF9FA5E8 /* Check Pods Manifest.lock */,
 				17B5C018625E5EC706B9F8D6 /* Sources */,
 				17B5CB9E5B8A17BA61FBCD9E /* Frameworks */,
 				17B5C3674C7ED168AD62AB77 /* Resources */,
+				E60E19C138B94D33A27BD225 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +248,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26835A0DA0F547AA99E916EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NSDictionaryAsURLQuery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A8E418550744E548BB4283C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB664E3C200461EBF9FA5E8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E60E19C138B94D33A27BD225 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NSDictionaryAsURLQueryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17B5C018625E5EC706B9F8D6 /* Sources */ = {
@@ -307,6 +386,7 @@
 		};
 		17B5C5F35C01658619DC8A18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C58F4D71304461FA43A2ED3 /* Pods-NSDictionaryAsURLQuery.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/NSDictionaryAsURLQuery.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -319,6 +399,7 @@
 		};
 		17B5C679608178838D896AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08281C5F3C094A2D8D6D4E5A /* Pods-NSDictionaryAsURLQueryTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -328,12 +409,14 @@
 				GCC_PREFIX_HEADER = "NSDictionaryAsURLQuery/NSDictionaryAsURLQuery-Prefix.pch";
 				INFOPLIST_FILE = "NSDictionaryAsURLQueryTests/NSDictionaryAsURLQueryTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		17B5CCEB7485933C6E70A2D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C58F4D71304461FA43A2ED3 /* Pods-NSDictionaryAsURLQuery.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/NSDictionaryAsURLQuery.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -346,6 +429,7 @@
 		};
 		17B5CCF4B6A9FB850E301DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08281C5F3C094A2D8D6D4E5A /* Pods-NSDictionaryAsURLQueryTests.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -355,6 +439,7 @@
 				GCC_PREFIX_HEADER = "NSDictionaryAsURLQuery/NSDictionaryAsURLQuery-Prefix.pch";
 				INFOPLIST_FILE = "NSDictionaryAsURLQueryTests/NSDictionaryAsURLQueryTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -407,6 +492,7 @@
 				17B5C5F35C01658619DC8A18 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B5CC39B88FBA288E505CE4 /* Build configuration list for PBXNativeTarget "NSDictionaryAsURLQueryTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +501,7 @@
 				17B5C679608178838D896AF9 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17B5CC4020C205661E52B87F /* Build configuration list for PBXProject "NSDictionaryAsURLQuery" */ = {
 			isa = XCConfigurationList;
